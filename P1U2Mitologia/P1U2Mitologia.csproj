@@ -1,0 +1,82 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="microsoft.entityframeworkcore.tools" Version="8.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="pomelo.entityframeworkcore.mysql" Version="8.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\Entities\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\estilos.css" />
+    <None Include="wwwroot\imagenes\Ah Puch.png" />
+    <None Include="wwwroot\imagenes\Ah Puch_estatua.png" />
+    <None Include="wwwroot\imagenes\Chaac.png" />
+    <None Include="wwwroot\imagenes\chaac_estatua.png" />
+    <None Include="wwwroot\imagenes\Coo Dzavui.png" />
+    <None Include="wwwroot\imagenes\Coo Dzavui_estatua.png" />
+    <None Include="wwwroot\imagenes\Coyolxauhqui.png" />
+    <None Include="wwwroot\imagenes\Coyolxauhqui_estatua.png" />
+    <None Include="wwwroot\imagenes\Dios Jaguar.png" />
+    <None Include="wwwroot\imagenes\Dios Jaguar_estatua.png" />
+    <None Include="wwwroot\imagenes\Diosa de la Agricultura.png" />
+    <None Include="wwwroot\imagenes\Diosa de la Agricultura_estatua.png" />
+    <None Include="wwwroot\imagenes\Dragón Olmeca.png" />
+    <None Include="wwwroot\imagenes\Dragón Olmeca_estatua.png" />
+    <None Include="wwwroot\imagenes\Hombre de la Cosecha.png" />
+    <None Include="wwwroot\imagenes\Hombre de la Cosecha_estatua.png" />
+    <None Include="wwwroot\imagenes\huastecos.jpg" />
+    <None Include="wwwroot\imagenes\Huehuetéotl.png" />
+    <None Include="wwwroot\imagenes\Huehuetéotl_estatua.png" />
+    <None Include="wwwroot\imagenes\huitzilopochtli.png" />
+    <None Include="wwwroot\imagenes\huitzilopochtli_estatua.png" />
+    <None Include="wwwroot\imagenes\Itzamná.png" />
+    <None Include="wwwroot\imagenes\Itzamná_estatua.png" />
+    <None Include="wwwroot\imagenes\Ixchel.png" />
+    <None Include="wwwroot\imagenes\Ixchel_estatua.png" />
+    <None Include="wwwroot\imagenes\Ixtab.png" />
+    <None Include="wwwroot\imagenes\Ixtab_estatua.png" />
+    <None Include="wwwroot\imagenes\K%27awiil.png" />
+    <None Include="wwwroot\imagenes\K%27awiil_estatua.png" />
+    <None Include="wwwroot\imagenes\K%27inich Ajaw.png" />
+    <None Include="wwwroot\imagenes\K%27inich Ajaw_estatua.png" />
+    <None Include="wwwroot\imagenes\mayas.jpg" />
+    <None Include="wwwroot\imagenes\mexicas.jpg" />
+    <None Include="wwwroot\imagenes\Mictlantecuhtli.png" />
+    <None Include="wwwroot\imagenes\Mictlantecuhtli_estatua.png" />
+    <None Include="wwwroot\imagenes\mixtecos.jpg" />
+    <None Include="wwwroot\imagenes\olmecas.jpg" />
+    <None Include="wwwroot\imagenes\Pitao Cocijo.png" />
+    <None Include="wwwroot\imagenes\Pitao Cocijo_estatua.png" />
+    <None Include="wwwroot\imagenes\Pitao Cozobi.png" />
+    <None Include="wwwroot\imagenes\Pitao Cozobi_estatua.png" />
+    <None Include="wwwroot\imagenes\Pitao Xoo.png" />
+    <None Include="wwwroot\imagenes\Pitao Xoo_estatua.png" />
+    <None Include="wwwroot\imagenes\Pitao Zee.png" />
+    <None Include="wwwroot\imagenes\Pitao Zee_estatua.png" />
+    <None Include="wwwroot\imagenes\purépechas.jpg" />
+    <None Include="wwwroot\imagenes\quetzalcóatl.png" />
+    <None Include="wwwroot\imagenes\quetzalcóatl_estatua.png" />
+    <None Include="wwwroot\imagenes\Serpiente Emplumada.png" />
+    <None Include="wwwroot\imagenes\Serpiente Emplumada_estatua.png" />
+    <None Include="wwwroot\imagenes\teotihuacanos.jpg" />
+    <None Include="wwwroot\imagenes\Tezcatlipoca.png" />
+    <None Include="wwwroot\imagenes\Tezcatlipoca_estatua.png" />
+    <None Include="wwwroot\imagenes\Toltecas.jpg" />
+    <None Include="wwwroot\imagenes\Yum Kaax.png" />
+    <None Include="wwwroot\imagenes\Yum Kaax_estatua.png" />
+    <None Include="wwwroot\imagenes\zapotecas.jpg" />
+  </ItemGroup>
+
+</Project>
