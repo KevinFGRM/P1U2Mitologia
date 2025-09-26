@@ -8,9 +8,7 @@
     {
         public string Nombre { get; set; } = null!;
 
-        public int? PeriodoInicio { get; set; }
-
-        public int? PeriodoFin { get; set; }
+        public string Periodo { get; set; } = null!;
 
         public string? Region { get; set; }
 

@@ -35,8 +35,9 @@ namespace PracticaU2.Controllers
                 .Select(c => new CivilizacionModel
                 {
                     Nombre = c.Nombre,
-                    PeriodoInicio = c.PeriodoInicio,
-                    PeriodoFin = c.PeriodoFin,
+                    Periodo = (c.PeriodoInicio < 0 ? $"{Math.Abs((decimal)c.PeriodoInicio).ToString("0")} A.C." : $"{c.PeriodoInicio} D.C.") +
+                        " - " +
+                        (c.PeriodoFin < 0 ? $"{Math.Abs((decimal)c.PeriodoFin).ToString("0")} A.C." : $"{c.PeriodoFin} D.C."),
                     Region = c.Region,
                     Capital = c.Capital,
                     Lengua = c.Lengua,
